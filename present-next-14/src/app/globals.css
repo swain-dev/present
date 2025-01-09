@@ -1,0 +1,36 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  overflow: hidden;
+  min-height: 100vh;
+  background-color: black;
+  padding: 25px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  background-color: rgb(230, 228, 228);
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: rgb(44, 92, 223);
+  color: white;
+  font-size: 16px;
+  border: solid 1px white;
+}

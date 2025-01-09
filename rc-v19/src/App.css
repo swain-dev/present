@@ -1,0 +1,90 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  overflow: hidden;
+  min-height: 100vh;
+  background-color: black;
+  padding: 25px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  background-color: rgb(230, 228, 228);
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: rgb(44, 92, 223);
+  color: white;
+  font-size: 16px;
+  border: solid 1px white;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: solid 1px white;
+}
+
+button:disabled {
+  background-color: rgb(175, 179, 190);
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.box_title {
+  color: black !important;
+}
+
+.list_item {
+  height: 200px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.box_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.transition_main {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  gap: 20px;
+}
+
+.transition_main ul {
+  flex: 1;
+  overflow-y: auto;
+}
